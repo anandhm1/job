@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script >
+        function date1()
+        {
+           document.getElementById('date1').innerHTML = Date();
+        }
+        document.addEventListener('click',function()
+        {
+        document.getElementById('title').innerHTML='hiiii';
+        document.getElementById('title').style.color='red';
+        });
+    </script>
+</head>
+<body>
+    <h2 id="title">i am anand meshram</h2>
+    <button onclick="document.getElementById('date').innerHTML=Date();">Date</button>
+    <h1 id="date"></h1>
+    <button onclick="date1()">Date</button>
+    <h2 id="date1"></h2>
+</body>
+</html>
